@@ -3,34 +3,265 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Zuri - 3 Column Preview Card</title>
+	<title>Portfolio Website</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://kit.fontawesome.com/80635ad3fc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<main>
-		<div class="sedans">
-			<img src="images/icon-sedans.svg">
-			<h2>SEDANS</h2>
-			<p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
-			<button>Learn More</button>
+	<header>
+		<div class="header__nav">
+			<a class="header__nav--brand" href="#">Ukeme</a>
+			<ul class="header__nav--menu">
+				<li class="header__nav--menu__item">
+					<a href="#about-me-link">About Me</a>
+				</li>
+				<li class="header__nav--menu__item">
+					<a href="#services-link">Services</a>
+				</li>
+				<li class="header__nav--menu__item">
+					<a href="#projects-link">Projects</a>
+				</li>
+				<li class="header__nav--menu__item">
+					<a href="#skills-link">Skills</a>
+				</li>
+				<li class="header__nav--menu__item">
+					<a href="#contact-me-link">Contact Me</a>
+				</li>
+			</ul>
+			<div class="hamburger-menu-container">
+				<div class="hamburger-menu"></div>
+			</div>
 		</div>
-		<div class="suvs">
-			<img src="images/icon-suvs.svg">
-			<h2>SUVS</h2>
-			<p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+		
 
-			<button>Learn More</button>
-		</div>
-		<div class="luxury">
-			<img src="images/icon-luxury.svg">
-			<h2>Luxury</h2>
-			<p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-			<button>Learm More</button>
-		</div>
+	</header>
+
+	<main>
+		<section id="intro">
+			<div class="intro__overlay">
+				<img src="uk.jpg">
+				<div class="intro__name">
+					<p>Hi <span>,</span> i am</p>
+					<p>bassey</p>
+					<p>ukeme <span>.</span></p>
+				</div>
+				<p class="intro__skill">I am a web developer</p>
+			</div>
+			
+		</section>
+		<section id="about-me">
+			<hr id="about-me-link">
+			<h2 class="about-me__title">About Me</h2>
+			<hr>
+			<div class="about-me__desc--pic">
+				<div class="about-me__desc">
+					<p>Hi, I'm Bassey Ukeme. I build and design beautiful websites.</p>
+
+					<p>Since I started my web development journey about a year, I have built web applications of which a few are in production. I have done so many frontend challenges and I have also contributed in some projects (some of my projects are shown here and you can also checkout my github for more)</p>
+
+					<p>I really love solving problems with my programming or web development skill. I also love assisting others with their projects and help people learn web development better.</p>
+					<hr>
+					<div class="about-me__desc--contact">
+						<div>
+							<h3>Phone</h3>
+							<p>+2349073006383</p>
+						</div>
+						<div>
+							<h3>Email</h3>
+							<p>basseyukemme@gmail.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="about-me__pic">
+					<div>
+						<img src="ukeme.jpg">
+						<div class="social">
+							<a href="https://github.com/bukeme"><i class="fa-brands fa-github"></i></a>
+							<a href="https://stackoverflow.com/users/20026432/bassey-ukeme?tab=profile"><i class="fa-brands fa-stack-overflow"></i></a>
+							<a href="https://figma.com/@ukeme"><i class="fa-brands fa-figma"></i></a>
+							<a href="https://codepen.io/bukeme"><i class="fa-brands fa-codepen"></i></a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="services">
+			<hr id="services-link">
+			<h2 class="services__title">Services</h2>
+			<hr>
+			<div class="services__section">
+				<div class="services__web">
+					<h1>Web Development</h1>
+					<p>I build beautiful and responsive websites with a lot of modern features. I also maintain exisiting websites efficiently</p>
+				</div>
+				<div class="services__python">
+					<h1>Python Developer</h1>
+					<p>I automate some cool stuffs with python and also build web applications with python. Contributing to python projects and assisting other python developers is what i do also.</p>
+				</div>
+			</div>
+		</section>
+		<section id="projects">
+			<hr id="projects-link">
+			<h2 class="projects__title">Projects</h2>
+			<hr>
+			<div class="projects__section">
+				<div class="projects__section--project-1 project">
+					<img src="project-1.PNG">
+					<div class="projects__section--project-1__overlay">
+						<p>Single Price Grid Component</p>
+					</div>
+				</div>
+				<div class="projects__section--project-2 project">
+					<img src="project-2.PNG">
+					<div class="projects__section--project-2__overlay">
+						<p>Intro Component</p>
+					</div>
+				</div>
+				<div class="projects__section--project-3 project">
+					<img src="project-3.PNG">
+					<div class="projects__section--project-3__overlay">
+						<p>Budget App</p>
+					</div>
+				</div>
+				<div class="projects__section--project-4 project">
+					<img src="project-4.PNG">
+					<div class="projects__section--project4__overlay">
+						<p>Social Proof Section</p>
+					</div>
+				</div>
+				<div class="projects__section--project-5 project">
+					<img src="project-5.PNG">
+					<div class="projects__section--project-5__overlay">
+						<p>Memory Game</p>
+					</div>
+				</div>
+				<div class="projects__section--project-6 project">
+					<img src="project-6.PNG">
+					<div class="projects__section--project-6__overlay">
+						<p>Four Cards Feature Section</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<hr id="skills-link">
+			<h2 class="skills__title">Skills, Hobbies And Priorites</h2>
+			<hr>
+			<div class="skills__section">
+				<div class="skills__section--section-1">
+					<div class="skills__section--section-1__skill">
+						<h3 class="skills__section--section-1__skill--title">HTML</h3>
+						<div class="skills__section--section-1__skill--rating">
+							<div class="skills__section--section-1__skill--rating__progress">
+								<div class="skills__section--section-1__skill--rating__progress-bar" style="width: 100%;"></div>
+							</div>
+							<p class="skills__section--section-1__skill--rating__rate">100%</p>
+						</div>
+					</div>
+					<div class="skills__section--section-1__skill">
+						<h3 class="skills__section--section-1__skill--title">CSS</h3>
+						<div class="skills__section--section-1__skill--rating">
+							<div class="skills__section--section-1__skill--rating__progress">
+								<div class="skills__section--section-1__skill--rating__progress-bar" style="width: 90%;"></div>
+							</div>
+							<p class="skills__section--section-1__skill--rating__rate">90%</p>
+						</div>
+					</div>
+					<div class="skills__section--section-1__skill">
+						<h3 class="skills__section--section-1__skill--title">JavaScript</h3>
+						<div class="skills__section--section-1__skill--rating">
+							<div class="skills__section--section-1__skill--rating__progress">
+								<div class="skills__section--section-1__skill--rating__progress-bar" style="width: 75%;"></div>
+							</div>
+							<p class="skills__section--section-1__skill--rating__rate">75%</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="skills__section--section-2">
+					<div class="skills__section--section-2__skill">
+						<h3 class="skills__section--section-2__skill--title">Jquery</h3>
+						<div class="skills__section--section-2__skill--rating">
+							<div class="skills__section--section-2__skill--rating__progress">
+								<div class="skills__section--section-2__skill--rating__progress-bar" style="width: 75%;"></div>
+							</div>
+							<p class="skills__section--section-2__skill--rating__rate">75%</p>
+						</div>
+					</div>
+					<div class="skills__section--section-2__skill">
+						<h3 class="skills__section--section-2__skill--title">Python</h3>
+						<div class="skills__section--section-2__skill--rating">
+							<div class="skills__section--section-2__skill--rating__progress">
+								<div class="skills__section--section-2__skill--rating__progress-bar" style="width: 85%;"></div>
+							</div>
+							<p class="skills__section--section-2__skill--rating__rate">85%</p>
+						</div>
+					</div>
+					<div class="skills__section--section-2__skill">
+						<h3 class="skills__section--section-2__skill--title">Django</h3>
+						<div class="skills__section--section-2__skill--rating">
+							<div class="skills__section--section-2__skill--rating__progress">
+								<div class="skills__section--section-2__skill--rating__progress-bar" style="width: 90%;"></div>
+							</div>
+							<p class="skills__section--section-2__skill--rating__rate">90%</p>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<section id="contact-me">
+			<hr id="contact-me-link">
+			<h2 class="contact-me__title">Contact Me</h2>
+			<hr>
+			<div class="contact-me__section">
+				<form class="contact-me__section--form">
+					<div class="contact-me__section--form__name--email">
+						<input type="text" placeholder="Name">
+						<input type="email" placeholder="Email">
+					</div>
+					<input type="text" placeholder="Subject">
+					<textarea placeholder="Message"></textarea>
+					<button>Submit</button>
+				</form>
+				<div class="contact-me__section--contact-info">
+					<div>
+						<h3 class="contact-me__section--contact-info__name">Bassey Ukeme</h3>
+						<p class="contact-me__section--contact-info__skill">Web Developer</p>
+					</div>
+					<div>
+						<h4 class="contact-me__section--contact-info__sub-title">Phone</h4>
+						<p class="contact-me__section--contact-info__para">+2349073006383</p>
+					</div>
+					<div>
+						<h4 class="contact-me__section--contact-info__sub-title">Email</h4>
+						<p class="contact-me__section--contact-info__para">basseyukemme@gmail</p>
+					</div>
+					<div class="social">
+						<a href="https://github.com/bukeme"><i class="fa-brands fa-github"></i></a>
+						<a href="https://stackoverflow.com/users/20026432/bassey-ukeme?tab=profile"><i class="fa-brands fa-stack-overflow"></i></a>
+						<a href="https://figma.com/@ukeme"><i class="fa-brands fa-figma"></i></a>
+						<a href="https://codepen.io/bukeme"><i class="fa-brands fa-codepen"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
+	<footer>&#169; Copyright Bassey. Design By Bassey Ukeme</footer>
+
+
+	<script type="text/javascript">
+		const hamburger = document.querySelector('.hamburger-menu-container')
+		hamburger.addEventListener('click', function() {
+			document.querySelector('.header__nav--menu').classList.toggle('open')
+			this.classList.toggle('open')
+		})
+	</script>
 </body>
 </html>
