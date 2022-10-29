@@ -19,7 +19,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Assignments
 ```
 
 Checkout the project!
@@ -27,9 +27,6 @@ Checkout the project!
 For the Django Project 
 
 Navigate to the project directory
-```bash
-  cd Assignments
-```
 ```bash
   cd week-4-python-task
 ```
